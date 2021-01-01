@@ -24,15 +24,20 @@
   color: white;
 }
 
+.list-item {
+  display: flex;
+  background-color: #61dafb;
+  justify-content: center;
+}
+
+.delete-button {
+  margin-left: 30px;
+}
+
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  width: 300px;
 }
